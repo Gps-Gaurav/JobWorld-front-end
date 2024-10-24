@@ -38,12 +38,13 @@ return(
 		<div class="slide">
 			<img src="https://companieslogo.com/img/orig/MANKIND.NS_BIG-e2edbe6b.png?t=1720244492" height="100" width="150" alt="" />
 		</div>
+		<div class="slide py-3">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9aZLSIxNZv3FSEhMQjmSUzORZWmUPTz4WGA&s" height="100" width="200" alt="" />
+		</div>
 		<div class="slide">
 			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
 		</div>
-		<div class="slide">
-			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9aZLSIxNZv3FSEhMQjmSUzORZWmUPTz4WGA&s" height="100" width="250" alt="" />
-		</div>
+	
 	</div>
 </div>
 )
