@@ -1,8 +1,11 @@
+const bStyle ={
+  background: "linear-gradient(115deg, #000000, #ffffff)"
+}
 import React from 'react';
 
 const Footer = () => {
   return (
-    <footer class="bg-white dark:bg-gray-900">
+    <footer style={bStyle} class="bg-gradient-to-tr">
     <div class="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
       <div class="mx-auto max-w-md">
         <strong class="block text-center text-xl font-bold text-gray-900 sm:text-3xl dark:text-white">
@@ -14,14 +17,14 @@ const Footer = () => {
             <label class="sr-only" for="email"> Email </label>
   
             <input
-              class="w-full rounded-full border-gray-200 bg-gray-100 p-4 pe-32 text-sm font-medium dark:border-gray-700 dark:bg-gray-800 dark:text-white"
+              class="w-full rounded-full border-gray-200 bg-gray-100 p-4 pe-32 text-sm font-medium"
               id="email"
               type="email"
-              placeholder="john@doe.com"
+              placeholder="gps@gmail.com"
             />
   
             <button
-              class="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700"
+              class="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-white transition bg-gradient-to-r from-teal-400 to-blue-500 hover:from-pink-500 hover:to-orange-500 ..."
             >
               Subscribe
             </button>
@@ -29,16 +32,145 @@ const Footer = () => {
         </form>
       </div>
   
-      <div class="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
+      <div class="mt-10 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-0">
         <div class="mx-auto max-w-sm lg:max-w-none">
-          <p class="mt-4 text-center text-gray-500 lg:text-left lg:text-lg dark:text-gray-400">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium natus quod eveniet
-            aut perferendis distinctio iusto repudiandae, provident velit earum?
-          </p>
+        <img src="src/assets/image.png" />
+    
+        </div>
   
-          <div class="mt-6 flex justify-center gap-4 lg:justify-start">
+        <div class="grid grid-cols-1 gap-8 text-center lg:grid-cols-3 lg:text-left">
+          <div>
+            <strong class="font-medium text-gray-900 dark:text-white"> Services </strong>
+  
+            <ul class="mt-3 space-y-1">
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
+                  href="#"
+                >
+                  Marketing
+                </a>
+              </li>
+  
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
+                  href="#"
+                >
+                  Graphic Design
+                </a>
+              </li>
+  
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
+                  href="#"
+                >
+                  App Development
+                </a>
+              </li>
+  
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
+                  href="#"
+                >
+                  Web Development
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
+                  href="#"
+                >
+                  Web Development
+                </a>
+              </li>
+            </ul>
+          </div>
+  
+          <div>
+            <strong class="font-medium text-gray-900 dark:text-white"> About </strong>
+  
+            <ul class="mt-6 space-y-1">
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
+                  href="#"
+                >
+                  About
+                </a>
+              </li>
+  
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
+                  href="#"
+                >
+                  Careers
+                </a>
+              </li>
+  
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
+                  href="#"
+                >
+                  History
+                </a>
+              </li>
+  
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
+                  href="#"
+                >
+                  Our Team
+                </a>
+              </li>
+            </ul>
+          </div>
+  
+          <div>
+            <strong class="font-medium text-gray-900 dark:text-white"> Support </strong>
+  
+            <ul class="mt-6 space-y-1">
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
+                  href="#"
+                >
+                  FAQs
+                </a>
+              </li>
+  
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
+                  href="#"
+                >
+                  Contact
+                </a>
+              </li>
+  
+              <li>
+                <a
+                  class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
+                  href="#"
+                >
+                  Live Chat
+                </a>
+              </li>
+            </ul>
+          </div>
+        
+        </div>
+      </div>
+     
+      <div class="mb-3 mt-5 border-t border-gray-100 pt-8 dark:border-gray-800">
+      <div class="mb-2 flex justify-center gap-4 lg:justify-center">
             <a
-              class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+              class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
               href="#"
               target="_blank"
               rel="noreferrer"
@@ -55,7 +187,7 @@ const Footer = () => {
             </a>
   
             <a
-              class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+              class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
               href="#"
               target="_blank"
               rel="noreferrer"
@@ -72,7 +204,7 @@ const Footer = () => {
             </a>
   
             <a
-              class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+              class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
               href="#"
               target="_blank"
               rel="noreferrer"
@@ -87,7 +219,7 @@ const Footer = () => {
             </a>
   
             <a
-              class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+              class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
               href="#"
               target="_blank"
               rel="noreferrer"
@@ -104,7 +236,7 @@ const Footer = () => {
             </a>
   
             <a
-              class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+              class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
               href="#"
               target="_blank"
               rel="noreferrer"
@@ -120,149 +252,29 @@ const Footer = () => {
               </svg>
             </a>
           </div>
-        </div>
-  
-        <div class="grid grid-cols-1 gap-8 text-center lg:grid-cols-3 lg:text-left">
-          <div>
-            <strong class="font-medium text-gray-900 dark:text-white"> Services </strong>
-  
-            <ul class="mt-6 space-y-1">
-              <li>
-                <a
-                  class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
-                >
-                  Marketing
-                </a>
-              </li>
-  
-              <li>
-                <a
-                  class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
-                >
-                  Graphic Design
-                </a>
-              </li>
-  
-              <li>
-                <a
-                  class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
-                >
-                  App Development
-                </a>
-              </li>
-  
-              <li>
-                <a
-                  class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
-                >
-                  Web Development
-                </a>
-              </li>
-            </ul>
-          </div>
-  
-          <div>
-            <strong class="font-medium text-gray-900 dark:text-white"> About </strong>
-  
-            <ul class="mt-6 space-y-1">
-              <li>
-                <a
-                  class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
-                >
-                  About
-                </a>
-              </li>
-  
-              <li>
-                <a
-                  class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
-                >
-                  Careers
-                </a>
-              </li>
-  
-              <li>
-                <a
-                  class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
-                >
-                  History
-                </a>
-              </li>
-  
-              <li>
-                <a
-                  class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
-                >
-                  Our Team
-                </a>
-              </li>
-            </ul>
-          </div>
-  
-          <div>
-            <strong class="font-medium text-gray-900 dark:text-white"> Support </strong>
-  
-            <ul class="mt-6 space-y-1">
-              <li>
-                <a
-                  class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
-                >
-                  FAQs
-                </a>
-              </li>
-  
-              <li>
-                <a
-                  class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
-                >
-                  Contact
-                </a>
-              </li>
-  
-              <li>
-                <a
-                  class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                  href="#"
-                >
-                  Live Chat
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  
-      <div class="mt-16 border-t border-gray-100 pt-8 dark:border-gray-800">
-        <p class="text-center text-xs/relaxed text-gray-500 dark:text-gray-400">
-          © Company 2022. All rights reserved.
+        <p class="text-center text-xs/relaxed text-slate-50 dark:text-gray-400">
+          © Company 2024. All rights reserved.
   
           <br />
   
-          Created with
+          Created by 
           <a
             href="#"
-            class="text-gray-700 underline transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-            >Laravel</a
+            class="text-gray-700 underline transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
+            > <b> JobWorld Pvt. Ltd. </b> </a
           >
-          and
+         <b> & </b>
           <a
             href="#"
-            class="text-gray-700 underline transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-            >Laravel Livewire</a
+            class="text-gray-700 underline transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
+            > <b> SkillsWorld Pvt. </b> 
+            Ltd.</a
           >.
         </p>
       </div>
+    
     </div>
+    
   </footer>
   );
 }

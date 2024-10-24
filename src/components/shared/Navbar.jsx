@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className='bg-white'>
             <div className='flex items-center justify-between mx-auto max-w-7xl h-16'>
                 <div>
-                    <a href={'/'} className='text-2xl font-bold'>Job<span className='text-[#006989]'>World</span></a>
+                    <a href={'/'} className='text-2xl font-bold'>Job<span className='text-[#006989] hover:text-orange-400 ...'>World</span></a>
                 </div>
                 <div className='flex items-center gap-12'>
                     <ul className='flex font-medium items-center gap-5'>
@@ -41,12 +41,14 @@ const Navbar = () => {
                                 <>
                                     <li><Link to="/admin/companies">Companies</Link></li>
                                     <li><Link to="/admin/jobs">Jobs</Link></li>
+                                    <li><a href="/#PriceCard">Pricing</a></li>
                                 </>
                             ) : (
-                                <>
-                                    <li><Link to="/">Home</Link></li>
-                                    <li><Link to="/jobs">Jobs</Link></li>
-                                    <li><Link to="/browse">Browse</Link></li>
+                                <>  
+                                    <li><Link className='hover:text-orange-400 ...' to="/">Home</Link></li>
+                                    <li><Link className='hover:text-orange-400 ...' to="/jobs">Jobs</Link></li>
+                                    <li><Link className='hover:text-orange-400 ...' to="/browse">Browse</Link></li>
+                                    <li><a className='hover:text-orange-400 ...' href="/#Pricing">Pricing</a></li>
                                 </>
                             )
                         }
@@ -55,9 +57,11 @@ const Navbar = () => {
                     </ul>
                     {
                         !user ? (
-                            <div className='flex items-center gap-2'>
-                                <Link to="/login"><Button variant="outline">Login</Button></Link>
-                                <Link to="/signup"><Button className="bg-[#006989] hover:bg-[#5b30a6]">Signup</Button></Link>
+                            <div className='flex items-center gap-2  '>
+                                <Link to="/login">
+                                <Button className="bg-gradient-to-r from-teal-400 to-blue-500 hover:from-pink-500 hover:to-orange-500 ..." variant="outline">Login</Button></Link>
+                                <Link to="/signup">
+                                <Button className="bg-gradient-to-r from-teal-400 to-blue-500 hover:from-pink-500 hover:to-orange-500 ..." >Signup</Button></Link>
                             </div>
                         ) : (
                             <Popover>

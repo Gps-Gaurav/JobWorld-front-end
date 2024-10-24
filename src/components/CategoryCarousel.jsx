@@ -10,6 +10,7 @@ const category = [
     "Backend Developer",
     "Data Scientist",
     "Graphic Designer",
+    "DevOps Engineer",
     "FullStack Developer",
     "Ai/ML Engineer"
 ]

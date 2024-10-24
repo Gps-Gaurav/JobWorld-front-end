@@ -4,7 +4,11 @@ import HeroSection from './HeroSection'
 import CategoryCarousel from './CategoryCarousel'
 import LatestJobs from './LatestJobs'
 import Footer from './shared/Footer'
-import HowItWork from './shared/HowItWork'
+import Blogs from './shared/blogs'
+import LogoSlider from './shared/logoSlider'
+import HowItWorks from './shared/HowItWork'
+import PriceCard from './shared/priceCard'
+import Pricing from './shared/PricingCard'
 import useGetAllJobs from '@/hooks/useGetAllJobs'
 import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
@@ -25,15 +29,26 @@ const Home = () => {
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",}
 
+  const lStyle = {
+    marginTop: "120px",
+    }
+
+    
   return (
     <div>
       <div style={myStyle} >
       <Navbar />
       <HeroSection />
       <CategoryCarousel />
+      <LogoSlider />
       </div>
+      <div style={lStyle}>
       <LatestJobs />
-      <HowItWork />
+      </div>
+      <HowItWorks/>
+      <Blogs/>
+      <PriceCard/>
+      <Pricing />
       <Footer />
     
     </div>
