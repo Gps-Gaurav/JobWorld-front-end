@@ -48,7 +48,7 @@ const Footer = () => {
                   class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
                   href="#"
                 >
-                  Marketing
+                  Job Listings
                 </a>
               </li>
   
@@ -57,7 +57,7 @@ const Footer = () => {
                   class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
                   href="#"
                 >
-                  Graphic Design
+                  Resume Upload
                 </a>
               </li>
   
@@ -66,7 +66,7 @@ const Footer = () => {
                   class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
                   href="#"
                 >
-                  App Development
+                  Application Tracking
                 </a>
               </li>
   
@@ -75,7 +75,7 @@ const Footer = () => {
                   class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
                   href="#"
                 >
-                  Web Development
+                  Job Alerts
                 </a>
               </li>
               <li>
@@ -83,7 +83,7 @@ const Footer = () => {
                   class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
                   href="#"
                 >
-                  Web Development
+                  Interview Preparation
                 </a>
               </li>
             </ul>
@@ -98,7 +98,7 @@ const Footer = () => {
                   class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
                   href="#"
                 >
-                  About
+                  For Employers
                 </a>
               </li>
   
@@ -107,7 +107,7 @@ const Footer = () => {
                   class="text-gray-700 transition hover:text-slate-50 dark:text-white dark:hover:text-white/75"
                   href="#"
                 >
-                  Careers
+                 For Job Seekers
                 </a>
               </li>
   

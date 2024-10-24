@@ -29,22 +29,16 @@ const Home = () => {
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",}
 
-  const lStyle = {
-    marginTop: "120px",
-    }
-
     
   return (
     <div>
       <div style={myStyle} >
-      <Navbar />
+      <Navbar/>
       <HeroSection />
       <CategoryCarousel />
+      </div>
       <LogoSlider />
-      </div>
-      <div style={lStyle}>
       <LatestJobs />
-      </div>
       <HowItWorks/>
       <Blogs/>
       <PriceCard/>

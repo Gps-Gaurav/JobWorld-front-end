@@ -29,7 +29,7 @@ const Navbar = () => {
         }
     }
     return (
-        <div className='bg-white'>
+        <div className='bg-white ... sticky top-3'>
             <div className='flex items-center justify-between mx-auto max-w-7xl h-16'>
                 <div>
                     <a href={'/'} className='text-2xl font-bold'>Job<span className='text-[#006989] hover:text-orange-400 ...'>World</span></a>
